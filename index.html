@@ -158,6 +158,19 @@
       </div>
     </div>
 
+    <!-- Abstract. -->
+    <br>
+    <br>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Conclusion</h2>
+        <div class="content has-text-justified">
+          <p>Pose estimation-guided <b>unseen object 6-DoF robotic manipulation</b> is a key task in robotics. However, the scalability of current pose estimation methods to unseen objects remains a fundamental challenge, as they generally rely on CAD models or dense reference views of unseen objects, which are <b>difficult to acquire</b>, ultimately limit their scalability. In this paper, we introduce <b>a novel task setup</b>, referred to as SinRef-6D, which addresses 6-DoF <b>absolute</b> pose estimation for unseen objects using <b>only a single pose-labeled reference RGB-D image</b> captured <b>during robotic manipulation</b>. This setup is more scalable yet technically nontrivial due to <b>large pose discrepancies</b> and the <b>limited geometric and spatial information</b> contained in a single view. To address these issues, our key idea is to <b>iteratively establish point-wise alignment</b> in a common coordinate system with state space models (SSMs) as backbones. Specifically, to <b>handle large pose discrepancies</b>, we introduce an iterative object-space point-wise alignment strategy. Then, Point and RGB SSMs are proposed to <b>capture long-range dependencies and spatial information</b> from a single view, offering superior spatial modeling capability with linear complexity. Once pre-trained on synthetic data, SinRef-6D can estimate the 6-DoF absolute pose of an unseen object using only a single reference view. With the estimated pose, we further develop a <b>hardware-software robotic system</b> and integrate the proposed SinRef-6D into it in real-world settings. Extensive experiments on six benchmarks and in diverse real-world scenarios demonstrate that our SinRef-6D offers <b>superior scalability</b>. Additional robotic grasping experiments further validate the effectiveness of the developed robotic system.
+          </p>
+        </div>
+      </div>
+    </div>
+
     <br>
     <br>
     <div class="columns is-centered has-text-centered">
